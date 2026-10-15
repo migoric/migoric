@@ -1,13 +1,13 @@
 <!-- assets 钉在 commit SHA 上：jsdelivr 对分支路径有最长 12h 缓存，钉住可立即生效；
      以后改了 assets/*.svg 需把这里的 SHA 一起更新 -->
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/retrychx/retrychx@4844d414daf2547eb48f6039fd2e8e4aad4389cf/assets/header.svg" width="100%" alt="retrychx — building small, sharp tools for the desktop and the agent era"/>
+  <img src="https://cdn.jsdelivr.net/gh/migoric/migoric@a48d298a305425ef03c2f3d9fadfb407b10c0f08/assets/header.svg" width="100%" alt="migoric — building small, sharp tools for the desktop and the agent era"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/retrychx?tab=followers"><img src="https://img.shields.io/github/followers/retrychx?style=flat-square&label=followers&labelColor=151412&color=DD4C4F&logo=github&logoColor=EDE8E0" alt="followers"/></a>
-  <a href="https://github.com/retrychx?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fretrychx&query=%24.public_repos&label=repos&style=flat-square&labelColor=151412&color=DD4C4F&logo=github&logoColor=EDE8E0" alt="public repos"/></a>
-  <a href="https://retrychx.github.io/blog"><img src="https://img.shields.io/badge/Blog-retrychx.github.io-DD4C4F?style=flat-square&labelColor=151412&logo=rss&logoColor=EDE8E0" alt="blog"/></a>
+  <a href="https://github.com/migoric?tab=followers"><img src="https://img.shields.io/github/followers/migoric?style=flat-square&label=followers&labelColor=151412&color=DD4C4F&logo=github&logoColor=EDE8E0" alt="followers"/></a>
+  <a href="https://github.com/migoric?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fmigoric&query=%24.public_repos&label=repos&style=flat-square&labelColor=151412&color=DD4C4F&logo=github&logoColor=EDE8E0" alt="public repos"/></a>
+  <a href="https://migoric.github.io/blog"><img src="https://img.shields.io/badge/Blog-migoric.github.io-DD4C4F?style=flat-square&labelColor=151412&logo=rss&logoColor=EDE8E0" alt="blog"/></a>
 </p>
 
 ### About
@@ -16,9 +16,9 @@ I build **agent-native** software — native Apple apps and TypeScript services 
 
 ### Projects
 
-- **[Meditor](https://github.com/retrychx/Meditor)** — an agent-native document workstation for macOS. The agent edits the document, the preview renders it instantly, you iterate together. MCP server, BYOK, 13.5 MB, no Electron. `Swift` `SwiftUI`
-- **[agentia](https://github.com/retrychx/agentia)** — a declarative framework for agent services. Four kinds of capability declared with decorators and DI; every run yields a structured result and an observable call tree that carries its own cost. One package, zero runtime dependencies, on npm. `TypeScript`
-- **[jianxun · 简讯](https://github.com/retrychx/jianxun)** — an AI news digest across 48 Chinese and English sources: classified, summarised and clustered into narrative threads, with an agent that reads the day's news for shippable product ideas. `TypeScript` `Cloudflare`
+- **[Meditor](https://github.com/migoric/Meditor)** — an agent-native document workstation for macOS. The agent edits the document, the preview renders it instantly, you iterate together. MCP server, BYOK, 13.5 MB, no Electron. `Swift` `SwiftUI`
+- **[agentia](https://github.com/migoric/agentia)** — a declarative framework for agent services. Four kinds of capability declared with decorators and DI; every run yields a structured result and an observable call tree that carries its own cost. One package, zero runtime dependencies, on npm. `TypeScript`
+- **[jianxun · 简讯](https://github.com/migoric/jianxun)** — an AI news digest across 48 Chinese and English sources: classified, summarised and clustered into narrative threads, with an agent that reads the day's news for shippable product ideas. `TypeScript` `Cloudflare`
 - **aquarelle** — an iOS watercolour studio. A tool-using agent drives on-device Core Image analysis, then hands off to a renderer, falling back to a fully local path when no key is configured. Private, work in progress. `Swift` `SwiftUI`
 
 ### Stack
@@ -42,7 +42,7 @@ I build **agent-native** software — native Apple apps and TypeScript services 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/retrychx/retrychx@output/.github/output/github-contribution-grid-snake-dark.svg"/>
-    <img src="https://cdn.jsdelivr.net/gh/retrychx/retrychx@output/.github/output/github-contribution-grid-snake.svg" width="100%" alt="contribution graph"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/migoric/migoric@output/.github/output/github-contribution-grid-snake-dark.svg"/>
+    <img src="https://cdn.jsdelivr.net/gh/migoric/migoric@output/.github/output/github-contribution-grid-snake.svg" width="100%" alt="contribution graph"/>
   </picture>
 </p>
