@@ -21,7 +21,7 @@ jobs:
       - name: Generate the snake animation
         uses: Platane/snk@v3
         with:
-          github_user_name: retrychx
+          github_user_name: migoric
           # `color_snake` is needed because both presets hard-code the snake body
           # to the CSS keyword `purple`, which is off-brand here; the hex has to
           # be percent-encoded or the `#` starts a URL fragment and is dropped.
