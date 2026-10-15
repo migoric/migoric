@@ -1,46 +1,46 @@
 <!-- assets 钉在 commit SHA 上：jsdelivr 对分支路径有最长 12h 缓存，钉住可立即生效；
      以后改了 assets/*.svg 需把这里的 SHA 一起更新 -->
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/retrychx/retrychx@4844d414daf2547eb48f6039fd2e8e4aad4389cf/assets/header.svg" width="100%" alt="retrychx — terminal"/>
+  <img src="https://cdn.jsdelivr.net/gh/retrychx/retrychx@4844d414daf2547eb48f6039fd2e8e4aad4389cf/assets/header.svg" width="100%" alt="retrychx — building small, sharp tools for the desktop and the agent era"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/retrychx?style=flat-square&label=followers&color=DD4C4F&labelColor=151412&logo=github&logoColor=EDE8E0" alt="followers"/>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=retrychx&style=flat-square&color=DD4C4F&label=views" alt="profile views"/>
+  <a href="https://github.com/retrychx?tab=followers"><img src="https://img.shields.io/github/followers/retrychx?style=flat-square&label=followers&labelColor=151412&color=DD4C4F&logo=github&logoColor=EDE8E0" alt="followers"/></a>
+  <a href="https://github.com/retrychx?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fretrychx&query=%24.public_repos&label=repos&style=flat-square&labelColor=151412&color=DD4C4F&logo=github&logoColor=EDE8E0" alt="public repos"/></a>
+  <a href="https://retrychx.github.io/blog"><img src="https://img.shields.io/badge/Blog-retrychx.github.io-DD4C4F?style=flat-square&labelColor=151412&logo=rss&logoColor=EDE8E0" alt="blog"/></a>
 </p>
 
-<!-- ═══════════════ CURRENT WORK ═══════════════ -->
-<h3 align="center"><img src="https://api.iconify.design/feather/zap.svg?color=%23DD4C4F" width="15" alt=""/>&nbsp; CURRENT WORK</h3>
+### About
+
+Full-stack developer working across Swift/macOS and TypeScript. I like small tools, clear interfaces, and systems that can explain themselves.
+
+### Projects
+
+- **[Meditor](https://github.com/retrychx/Meditor)** — native macOS Markdown editor with a built-in AI agent. `Swift` `SwiftUI`
+- **[agentia](https://github.com/retrychx/agentia)** — declarative framework for agent services; tracing and cost observability. `TypeScript`
+
+<sub>jianxun — private, work in progress.</sub>
+
+### Stack
 
 <p align="center">
-  <a href="https://github.com/retrychx/Meditor"><b>Meditor</b></a> — native macOS Markdown editor with a built-in AI Agent<br/>
-  <a href="https://github.com/retrychx/agentia"><b>agentia</b></a> — declarative agent service framework · trace &amp; cost observability
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro"/>
+  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
+  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/macOS-555555?style=flat-square&logo=apple&logoColor=white" alt="macOS"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"/>
 </p>
 
-<p align="center"><sub>
-  <img src="https://api.iconify.design/feather/lock.svg?color=%238A857C" width="11" alt=""/> jianxun — private work in progress
-</sub></p>
-
-<!-- ═══════════════ TECH STACK ═══════════════ -->
-<h3 align="center"><img src="https://api.iconify.design/feather/code.svg?color=%23DD4C4F" width="15" alt=""/>&nbsp; TECH STACK</h3>
+### Activity
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/retrychx/retrychx@4844d414daf2547eb48f6039fd2e8e4aad4389cf/assets/stack.svg" width="100%" alt="tech stack"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/retrychx/retrychx@output/.github/output/github-contribution-grid-snake-dark.svg"/>
+    <img src="https://cdn.jsdelivr.net/gh/retrychx/retrychx@output/.github/output/github-contribution-grid-snake.svg" width="100%" alt="contribution graph"/>
+  </picture>
 </p>
-
-<!-- ═══════════════ CONTRIBUTION ═══════════════ -->
-<h3 align="center"><img src="https://api.iconify.design/feather/activity.svg?color=%23DD4C4F" width="15" alt=""/>&nbsp; CONTRIBUTION</h3>
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/retrychx/retrychx@output/.github/output/github-contribution-grid-snake-dark.svg" width="100%" alt="contribution snake"/>
-</p>
-
-<!-- ═══════════════ FOOTER ═══════════════ -->
-<p align="center"><sub>
-  <a href="https://github.com/retrychx">GitHub</a>
-  &nbsp;·&nbsp;
-  <a href="https://retrychx.github.io/blog">Blog</a>
-  &nbsp;·&nbsp;
-  retrychx © 2026
-</sub></p>
