@@ -1,26 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="232" viewBox="0 0 760 232" font-family="Menlo, Consolas, 'DejaVu Sans Mono', 'Courier New', monospace">
-  <!-- terminal window card -->
-  <rect x="0" y="0" width="760" height="232" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-  <!-- subtle top highlight -->
-  <rect x="1" y="1" width="758" height="1" rx="0" fill="#21262d"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="208" viewBox="0 0 880 208" font-family="Menlo, Consolas, 'DejaVu Sans Mono', 'Courier New', monospace">
+  <!-- 暖调炭黑终端卡；唯一强调色 = 品牌红 #DD4C4F，只用在提示符 $ 上 -->
+  <rect x="0" y="0" width="880" height="208" rx="14" fill="#151412" stroke="#2A2724" stroke-width="1"/>
+  <rect x="1" y="1" width="878" height="1" fill="#211F1C"/>
 
-  <!-- traffic lights -->
-  <circle cx="28" cy="27" r="6" fill="#ff5f56"/>
-  <circle cx="50" cy="27" r="6" fill="#ffbd2e"/>
-  <circle cx="72" cy="27" r="6" fill="#27c93f"/>
+  <!-- 标题栏三点用同色暖灰，不用红黄绿灯 -->
+  <circle cx="28" cy="30" r="5.5" fill="#3A3733"/>
+  <circle cx="48" cy="30" r="5.5" fill="#3A3733"/>
+  <circle cx="68" cy="30" r="5.5" fill="#3A3733"/>
+  <text x="88" y="35" fill="#8A857C" font-size="12.5">retrychx@github — zsh</text>
+  <text x="848" y="35" text-anchor="end" fill="#5C574F" font-size="12.5">~/dev</text>
 
-  <!-- window title -->
-  <text x="92" y="33" fill="#8b949e" font-size="13">retrychx@github — zsh</text>
+  <!-- 标题栏下细分隔线 -->
+  <line x1="32" y1="56" x2="848" y2="56" stroke="#2A2724" stroke-width="1"/>
 
   <!-- $ whoami -->
-  <text x="32" y="74" fill="#8b949e" font-size="14">$ whoami</text>
-  <text x="32" y="104" fill="#7dcfff" font-size="24" font-weight="700">retrychx</text>
+  <text x="32" y="90" fill="#DD4C4F" font-size="13.5" font-weight="700">$</text>
+  <text x="48.2" y="90" fill="#8A857C" font-size="13.5">whoami</text>
+  <text x="32" y="124" fill="#EDE8E0" font-size="25" font-weight="700">retrychx</text>
 
-  <!-- $ cat intro.txt -->
-  <text x="32" y="140" fill="#8b949e" font-size="14">$ cat intro.txt</text>
-  <text x="32" y="168" fill="#9ece6a" font-size="14">Full-stack developer · AI Agent builder · pixel enthusiast</text>
-  <text x="32" y="192" fill="#9ece6a" font-size="14">Crafting elegant products out of code, coffee &amp; curiosity.</text>
-
-  <!-- # now -->
-  <text x="32" y="218" fill="#565f89" font-size="13.5"># now → building Meditor, a native macOS Markdown editor with a built-in AI Agent</text>
+  <!-- $ cat about.txt -->
+  <text x="32" y="158" fill="#DD4C4F" font-size="13.5" font-weight="700">$</text>
+  <text x="48.2" y="158" fill="#8A857C" font-size="13.5">cat about.txt</text>
+  <text x="32" y="184" fill="#C8C2B8" font-size="13.5">Building small, sharp tools for the desktop and the agent era.</text>
+  <!-- 光标块：唯一强调色的第三处落点，给静态卡一个呼吸点 -->
+  <rect x="540" y="171" width="9" height="17" fill="#DD4C4F" opacity="0.9"/>
 </svg>
