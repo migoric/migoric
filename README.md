@@ -29,13 +29,21 @@
   <img src="https://cdn.jsdelivr.net/gh/retrychx/retrychx/assets/stack.svg" width="100%" alt="tech stack"/>
 </p>
 
-<!-- ═══════════════ PRIVATE PROJECTS ═══════════════ -->
-<h2 align="center"><img src="https://api.iconify.design/feather/lock.svg?color=%237dcfff" width="18" alt=""/>&nbsp; PRIVATE PROJECTS</h2>
+<!-- ═══════════════ CURRENT WORK ═══════════════ -->
+<h2 align="center"><img src="https://api.iconify.design/feather/zap.svg?color=%237dcfff" width="18" alt=""/>&nbsp; CURRENT WORK</h2>
+
+<p align="center">
+  <img src="https://api.iconify.design/feather/edit-3.svg?color=%237dcfff" width="12" alt=""/>
+  &nbsp;<a href="https://github.com/retrychx/Meditor"><b>Meditor</b></a>
+  &nbsp;—&nbsp; native macOS Markdown editor with a built-in AI Agent
+  <br/>
+  <img src="https://api.iconify.design/feather/cpu.svg?color=%237dcfff" width="12" alt=""/>
+  &nbsp;<a href="https://github.com/retrychx/agentia"><b>agentia</b></a>
+  &nbsp;—&nbsp; declarative agent service framework · trace &amp; cost observability
+</p>
 
 <p align="center">
   <img src="https://api.iconify.design/feather/lock.svg?color=%23565f89" width="12" alt=""/> jianxun
-  &nbsp;·&nbsp;
-  <img src="https://api.iconify.design/feather/lock.svg?color=%23565f89" width="12" alt=""/> meditor
   &nbsp;—&nbsp; private work in progress
 </p>
 
@@ -43,7 +51,7 @@
 <p align="center">
   <a href="https://github.com/retrychx">GitHub</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/retrychx/blog">Blog</a>
+  <a href="https://retrychx.github.io/blog">Blog</a>
   &nbsp;·&nbsp;
   <img src="https://komarev.com/ghpvc/?username=retrychx&style=flat-square&color=bb9af7" alt="profile views"/>
   &nbsp;·&nbsp;

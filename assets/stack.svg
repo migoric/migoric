@@ -1,47 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="232" viewBox="0 0 760 232" font-family="Menlo, Consolas, 'DejaVu Sans Mono', 'Courier New', monospace">
-  <!-- ═══════════ 分类标签（左）＋ 每行等宽插槽内居中 pill，四行总宽度一致 ═══════════ -->
-  <!-- 内容区 [190,750] 宽 560；行按技能个数等分，pill 在槽内居中 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="232" viewBox="0 0 880 232" font-family="Menlo, Consolas, 'DejaVu Sans Mono', 'Courier New', monospace">
+  <!-- ═══════════ 分类标签（左）＋ 每行等宽插槽内居中 pill，各行内容区总宽度一致 ═══════════ -->
+  <!-- 内容区 [190,870] 宽 680；行按技能个数等分，pill 宽 = 8.4×字符数 + 40（等宽 14px 字体），在槽内居中 -->
   <line x1="184" y1="26" x2="184" y2="210" stroke="#30363d" stroke-width="1"/>
 
-  <!-- LANGUAGES（4 等分，槽宽 140，槽中心 260/400/540/680） -->
+  <!-- LANGUAGES（5 等分，槽宽 136，槽中心 258/394/530/666/802） -->
   <text x="172" y="56" text-anchor="end" fill="#7dcfff" font-size="14" font-weight="700">LANGUAGES</text>
-  <rect x="198"   y="36" width="124" height="28" rx="7" fill="#3178C6"/>
-  <text x="260"   y="56" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">TypeScript</text>
-  <rect x="338"   y="36" width="124" height="28" rx="7" fill="#F7DF1E"/>
-  <text x="400"   y="56" text-anchor="middle" fill="#161b22" font-size="14" font-weight="600">JavaScript</text>
-  <rect x="499"   y="36" width="82" height="28" rx="7" fill="#E34F26"/>
-  <text x="540"   y="56" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">HTML5</text>
-  <rect x="643"   y="36" width="74" height="28" rx="7" fill="#1572B6"/>
-  <text x="680"   y="56" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">CSS3</text>
+  <rect x="196"   y="36" width="124" height="28" rx="7" fill="#3178C6"/>
+  <text x="258"   y="56" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">TypeScript</text>
+  <rect x="332"   y="36" width="124" height="28" rx="7" fill="#F7DF1E"/>
+  <text x="394"   y="56" text-anchor="middle" fill="#161b22" font-size="14" font-weight="600">JavaScript</text>
+  <rect x="489"   y="36" width="82" height="28" rx="7" fill="#F05138"/>
+  <text x="530"   y="56" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Swift</text>
+  <rect x="625"   y="36" width="82" height="28" rx="7" fill="#E34F26"/>
+  <text x="666"   y="56" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">HTML5</text>
+  <rect x="765"   y="36" width="74" height="28" rx="7" fill="#1572B6"/>
+  <text x="802"   y="56" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">CSS3</text>
 
-  <!-- FRONTEND（5 等分，槽宽 112，槽中心 246/358/470/582/694） -->
+  <!-- FRONTEND（6 等分，槽宽 113.3，槽中心 247/360/473/587/700/813） -->
   <text x="172" y="108" text-anchor="end" fill="#7dcfff" font-size="14" font-weight="700">FRONTEND</text>
-  <rect x="205"   y="88" width="82" height="28" rx="7" fill="#61DAFB"/>
-  <text x="246"   y="108" text-anchor="middle" fill="#161b22" font-size="14" font-weight="600">React</text>
-  <rect x="325"   y="88" width="66" height="28" rx="7" fill="#4FC08D"/>
-  <text x="358"   y="108" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Vue</text>
-  <rect x="429"   y="88" width="82" height="28" rx="7" fill="#FF5D01"/>
-  <text x="470"   y="108" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Astro</text>
-  <rect x="528.5" y="88" width="107" height="28" rx="7" fill="#06B6D4"/>
-  <text x="582"   y="108" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Tailwind</text>
-  <rect x="657"   y="88" width="74" height="28" rx="7" fill="#646CFF"/>
-  <text x="694"   y="108" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Vite</text>
+  <rect x="206"   y="88" width="82" height="28" rx="7" fill="#61DAFB"/>
+  <text x="247"   y="108" text-anchor="middle" fill="#161b22" font-size="14" font-weight="600">React</text>
+  <rect x="328"   y="88" width="65" height="28" rx="7" fill="#4FC08D"/>
+  <text x="360"   y="108" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Vue</text>
+  <rect x="424"   y="88" width="99" height="28" rx="7" fill="#F05138"/>
+  <text x="473"   y="108" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">SwiftUI</text>
+  <rect x="546"   y="88" width="82" height="28" rx="7" fill="#FF5D01"/>
+  <text x="587"   y="108" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Astro</text>
+  <rect x="647"   y="88" width="107" height="28" rx="7" fill="#06B6D4"/>
+  <text x="700"   y="108" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Tailwind</text>
+  <rect x="776"   y="88" width="74" height="28" rx="7" fill="#646CFF"/>
+  <text x="813"   y="108" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Vite</text>
 
-  <!-- BACKEND（4 等分，槽宽 140） -->
+  <!-- BACKEND（4 等分，槽宽 170，槽中心 275/445/615/785） -->
   <text x="172" y="160" text-anchor="end" fill="#7dcfff" font-size="14" font-weight="700">BACKEND</text>
-  <rect x="210.5" y="140" width="99" height="28" rx="7" fill="#339933"/>
-  <text x="260"   y="160" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Node.js</text>
-  <rect x="355"   y="140" width="90" height="28" rx="7" fill="#2496ED"/>
-  <text x="400"   y="160" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Docker</text>
-  <rect x="507"   y="140" width="66" height="28" rx="7" fill="#F05032"/>
-  <text x="540"   y="160" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Git</text>
-  <rect x="601"   y="140" width="158" height="28" rx="7" fill="#2088FF"/>
-  <text x="680"   y="160" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">GitHub Actions</text>
+  <rect x="226"   y="140" width="99" height="28" rx="7" fill="#339933"/>
+  <text x="275"   y="160" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Node.js</text>
+  <rect x="400"   y="140" width="90" height="28" rx="7" fill="#2496ED"/>
+  <text x="445"   y="160" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Docker</text>
+  <rect x="583"   y="140" width="65" height="28" rx="7" fill="#F05032"/>
+  <text x="615"   y="160" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Git</text>
+  <rect x="706"   y="140" width="158" height="28" rx="7" fill="#2088FF"/>
+  <text x="785"   y="160" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">GitHub Actions</text>
 
-  <!-- PLATFORMS（2 等分，槽宽 280，槽中心 330/610） -->
+  <!-- PLATFORMS（3 等分，槽宽 226.7，槽中心 303/530/757） -->
   <text x="172" y="212" text-anchor="end" fill="#7dcfff" font-size="14" font-weight="700">PLATFORMS</text>
-  <rect x="243"   y="192" width="174" height="28" rx="7" fill="#4285F4"/>
-  <text x="330"   y="212" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Chrome Extension</text>
-  <rect x="577"   y="192" width="66" height="28" rx="7" fill="#5A0FC8"/>
-  <text x="610"   y="212" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">PWA</text>
+  <rect x="270"   y="192" width="66" height="28" rx="7" fill="#555555"/>
+  <text x="303"   y="212" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">macOS</text>
+  <rect x="443"   y="192" width="174" height="28" rx="7" fill="#4285F4"/>
+  <text x="530"   y="212" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Chrome Extension</text>
+  <rect x="725"   y="192" width="65" height="28" rx="7" fill="#5A0FC8"/>
+  <text x="757"   y="212" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">PWA</text>
 </svg>
