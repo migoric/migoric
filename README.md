@@ -12,14 +12,14 @@
 
 ### About
 
-Full-stack developer working across Swift/macOS and TypeScript. I like small tools, clear interfaces, and systems that can explain themselves.
+I build **agent-native** software — native Apple apps and TypeScript services where the model does only what a model can and the machine does the rest. Bring-your-own-key, tools that run on-device, and a working fallback for when the model isn't there. Every run should be able to explain itself.
 
 ### Projects
 
-- **[Meditor](https://github.com/retrychx/Meditor)** — native macOS Markdown editor with a built-in AI agent. `Swift` `SwiftUI`
-- **[agentia](https://github.com/retrychx/agentia)** — declarative framework for agent services; tracing and cost observability. `TypeScript`
-
-<sub>jianxun — private, work in progress.</sub>
+- **[Meditor](https://github.com/retrychx/Meditor)** — an agent-native document workstation for macOS. The agent edits the document, the preview renders it instantly, you iterate together. MCP server, BYOK, 13.5 MB, no Electron. `Swift` `SwiftUI`
+- **[agentia](https://github.com/retrychx/agentia)** — a declarative framework for agent services. Four kinds of capability declared with decorators and DI; every run yields a structured result and an observable call tree that carries its own cost. One package, zero runtime dependencies, on npm. `TypeScript`
+- **[jianxun · 简讯](https://github.com/retrychx/jianxun)** — an AI news digest across 48 Chinese and English sources: classified, summarised and clustered into narrative threads, with an agent that reads the day's news for shippable product ideas. `TypeScript` `Cloudflare`
+- **aquarelle** — an iOS watercolour studio. A tool-using agent drives on-device Core Image analysis, then hands off to a renderer, falling back to a fully local path when no key is configured. Private, work in progress. `Swift` `SwiftUI`
 
 ### Stack
 
@@ -34,6 +34,8 @@ Full-stack developer working across Swift/macOS and TypeScript. I like small too
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/macOS-555555?style=flat-square&logo=apple&logoColor=white" alt="macOS"/>
   <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"/>
+  <img src="https://img.shields.io/badge/MCP-151412?style=flat-square&logoColor=DD4C4F" alt="Model Context Protocol"/>
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare"/>
 </p>
 
 ### Activity
