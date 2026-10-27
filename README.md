@@ -16,7 +16,7 @@ I build **agent-native** software — native Apple apps and TypeScript services 
 
 ### Projects
 
-- **[Meditor](https://github.com/migoric/Meditor)** — an agent-native document workstation for macOS. The agent edits the document, the preview renders it instantly, you iterate together. MCP server, BYOK, 13.5 MB, no Electron. `Swift` `SwiftUI`
+- **[Meditor](https://github.com/migoric/Meditor)** — an agent-native document workstation for people who write technical docs on macOS. Point it at a repo and the agent drafts the design doc, the changelog, the weekly report; the preview renders instantly and you iterate together. MCP both ways, BYOK, under 10 MB, no Electron. `Swift` `SwiftUI`
 - **[agentia](https://github.com/migoric/agentia)** — a declarative framework for agent services. Four kinds of capability declared with decorators and DI; every run yields a structured result and an observable call tree that carries its own cost. One package, zero runtime dependencies, on npm. `TypeScript`
 - **[jianxun · 简讯](https://github.com/migoric/jianxun)** — an AI news digest across 48 Chinese and English sources: classified, summarised and clustered into narrative threads, with an agent that reads the day's news for shippable product ideas. `TypeScript` `Cloudflare`
 - **aquarelle** — an iOS watercolour studio. A tool-using agent drives on-device Core Image analysis, then hands off to a renderer, falling back to a fully local path when no key is configured. Private, work in progress. `Swift` `SwiftUI`
