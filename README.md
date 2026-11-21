@@ -12,12 +12,13 @@
 
 ### About
 
-I build **agent-native** software — native Apple apps and TypeScript services where the model does only what a model can and the machine does the rest. Bring-your-own-key, tools that run on-device, and a working fallback for when the model isn't there. Every run should be able to explain itself.
+I build **agent-native** software — native Apple apps and TypeScript services where the model does only what a model can and the machine does the rest. Bring-your-own-key, tools that run on-device, and a working fallback for when the model isn't there. Every run should be able to explain itself — and if an agent is going to rewrite its own instructions, it should have to prove the rewrite against evidence first.
 
 ### Projects
 
 - **[Meditor](https://github.com/migoric/Meditor)** — an agent-native document workstation for people who write technical docs on macOS. Point it at a repo and the agent drafts the design doc, the changelog, the weekly report; the preview renders instantly and you iterate together. MCP both ways, BYOK, under 10 MB, no Electron. `Swift` `SwiftUI`
 - **[agentia](https://github.com/migoric/agentia)** — a declarative framework for agent services. Four kinds of capability declared with decorators and DI; every run yields a structured result and an observable call tree that carries its own cost. One package, zero runtime dependencies, on npm. `TypeScript`
+- **[agentia-harness](https://github.com/migoric/agentia-harness)** — the eval and self-improvement loop that sits outside those services. Multi-turn eval cases, a train/holdout gate, and a decision ledger that records what a change predicted *before* it was tried. The loop may rewrite its own prompt assets, but only when a real evaluation says they got better, and it rolls the change back when they later stop working. `TypeScript`
 - **[jianxun · 简讯](https://github.com/migoric/jianxun)** — an AI news digest across 48 Chinese and English sources: classified, summarised and clustered into narrative threads, with an agent that reads the day's news for shippable product ideas. `TypeScript` `Cloudflare`
 - **aquarelle** — an iOS watercolour studio. A tool-using agent drives on-device Core Image analysis, then hands off to a renderer, falling back to a fully local path when no key is configured. Private, work in progress. `Swift` `SwiftUI`
 
